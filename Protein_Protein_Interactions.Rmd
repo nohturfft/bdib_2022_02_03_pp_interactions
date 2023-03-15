@@ -151,6 +151,7 @@ Print first six rows:
 ```{r print-df1}
 head(df1)
 ```
+
 Remove columns 3 and 4 (print first 10 rows):
 ```{r}
 df2 <- df1 %>% 
@@ -234,6 +235,7 @@ cat("Data class:", class(yfg.net))
 ```{r plot1, message=FALSE, warning=FALSE}
 print(ggnet2(yfg.net, label = TRUE, size = "degree")) # , layout.exp=1
 ```
+
 ## Session info
 ```{r print-date-and-time}
 cat(format(Sys.time(), format = "%a %d-%b-%Y %Rh"))
